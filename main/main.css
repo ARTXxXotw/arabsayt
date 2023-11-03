@@ -496,7 +496,6 @@ margin-bottom: 50px;
     height: 100%;
     background: url("../main\ img/Rectangle 11.png");
     cursor: pointer;
-
 }
 .turkiya-qora-fon{
     width: 100%;
@@ -547,6 +546,24 @@ margin-bottom: 50px;
             background: url(../main\ img/Egypt.png);
             overflow: hidden;
         }
+        .grid-block-2{
+            width: 351px !important;
+            height: 404px;
+            border-radius: 20px;
+            background: url("../main\ img/mvshv23_Dubai_desert_fun_vector_style_f7226fb2-7e93-4c6a-9ec2-6715e998239d.png");
+            overflow: hidden !important;
+        }
+        .grid-block-3{
+            width: 351px !important;
+            height: 404px;
+            overflow: hidden !important;
+        }
+        .grid-block-4{
+            width: 351px !important;
+            height: 404px;
+            overflow: hidden !important;
+        }
+        
                 .grid-block2 {
                     width: 351px;
                     height: 404px;
@@ -561,6 +578,16 @@ margin-bottom: 50px;
                     border-radius: 20px;
                     background: url("../main\ img/mvshv23_Antalya_old_town_Turkiye_vector_style_297c2036-1cdf-44f2-a3e5-6d9706bf6cae.png");
                     overflow: hidden;
+                }
+                .deriction-header-grid-3 .grid-block{
+                    width: 351px !important;
+                    height: 404px;
+                    overflow: hidden !important;
+                }
+                .grid-block-big1 {
+                    width: 735px !important;
+                    height: 404px;
+                    overflow: hidden !important;
                 }
              .deriction-header-grid-2 .grid-block {
         width: 351px;
@@ -632,14 +659,61 @@ margin-bottom: 50px;
         justify-content: center;
         gap: 60px;
         margin-bottom: 100px;
-        overflow: auto ;
+        overflow-x: auto !important;
+        overflow-y: auto !important;
+        overflow: auto !important;
     }
     .tour-packages-header-block::-webkit-scrollbar {
         width: 0 !important;
         height: 0 !important;
         display: none !important;
     }
-  
+
+    .tour-hedaer-block3 {
+        width: 341px !important;
+        height: 618px;
+        border-radius: 50px;
+        background: url(../main\ img/mvshv23_an_image_of_the_historical_city_of_istanbul_in_the_styl_84206478-1913-4aa1-be39-be587e0ba80d.png);
+        margin-bottom: 20px;
+        overflow: hidden;
+        margin-top: 40px;
+    }
+    .tour-hedaer-block1 {
+        width: 371px;
+        height: 618px;
+        border-radius: 50px;
+        background: url(../main\ img/mvshv23_an_image_of_the_historical_city_of_Saudi_Arabia_in_the__32bdc0ea-79f8-4479-a718-edc13476f0f0.png);
+        margin-bottom: 20px;
+        overflow: hidden;
+        margin-top: 40px;
+    }
+    .tour-hedaer-block2 {
+        width: 371px;
+        height: 618px;
+        border-radius: 50px;
+        background: url(../main\ img/Egypt1.png);
+        margin-bottom: 20px;
+        margin-top: 40px !important;
+        overflow: hidden;
+    }
+    .tour-big-bro:hover{
+        transform: translateY(0px) !important;
+     }
+     .tour-big-bro3:hover{
+         transform: translateY(0px) !important;
+      }
+      .tourr-btn button{
+        display: flex !important;
+        justify-content: center;
+    }
+.tourr-btn1{
+    position: relative;
+    top: 22px !important;
+}
+.oosososssa{
+    position: relative;
+    top: 22px !important;
+}
 }
 @media (max-width:1115px) {
     .grid-block3 {
@@ -651,6 +725,24 @@ margin-bottom: 50px;
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
+    .grid-block-4{
+        width: 730px !important;
+        height: 404px;
+        border-radius: 20px;
+        overflow: hidden !important;
+        background-repeat: no-repeat !important;
+        background-size: 100% 100% !important;
+    }
+.deriction-header-grid-3{
+    flex-wrap: wrap;
+}
+.grid-block-big1 {
+    width: 351px !important;
+    height: 404px;
+    border-radius: 20px;
+    background: url("../main\ img/mvshv23_atlantis_aquaventure_waterpark_dubai_vector_style_557f6942-b199-4600-9f5a-e96bc521c04b 1.png");
+    cursor: pointer;
+}
     .turkiya-qora-fon {
         width: 100%;
         height: 100%;
@@ -674,6 +766,40 @@ margin-bottom: 50px;
     }
 }
 @media (max-width:787px) {
+    .deriction-header-grid-3 .grid-block {
+        width: 90% !important;
+        height: 404px;
+        overflow: hidden !important;
+    }
+    .grid-block-big1 {
+        width: 90% !important;
+        height: 404px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .grid-block-2 {
+        width: 90% !important;
+        height: 404px;
+        border-radius: 20px;
+        overflow: hidden !important;
+        background-repeat: no-repeat !important;
+        background-size: 100% 100% !important;
+    }
+    .grid-block-3 {
+        width: 90% !important;
+        height: 404px;
+        overflow: hidden !important;
+        background-repeat: no-repeat !important;
+        background-size: 100% 100% !important;
+    }
+    .grid-block-4 {
+        width: 90% !important;
+        height: 404px;
+        border-radius: 20px;
+        overflow: hidden !important;
+        background-repeat: no-repeat !important;
+        background-size: 100% 100% !important;
+    }
     .grid-block {
         width: 90%;
         height: 404px;
@@ -754,6 +880,9 @@ margin-bottom: 50px;
     .directions-header-ichi-h2 p {
         font-size: 14px;
     } 
+    .tour-width-auto h1 {
+    font-size: 40px !important;
+}
 }
 @media (max-width:464px) {
     .directions-header-ichi-h2 h1 {
@@ -859,6 +988,7 @@ color: #FFFFFF;
     cursor: pointer;
     
 }
+
 .tour-text-d p{
     font-family: 'DM Sans', sans-serif;
     font-family: 'Fira Sans', sans-serif;
@@ -912,11 +1042,18 @@ color:black;
 padding-top: 30px;
 margin-bottom: 30px;
 }
-.tour-big-bro:hover{
+.tour-big-bro:hover {
    transform: translateY(70px);
 }
+.tour-big-bro:hover button {
+display: flex;
+ }
+ .tour-big-bro3:hover button {
+    display: flex;
+     }
 .tour-big-bro3:hover{
     transform: translateY(70px);
+   display: block;
  }
  .tour-text-d button{
     width:222px;
@@ -927,18 +1064,133 @@ border: 2px solid #F29025;
 background: #F29025;
 cursor: pointer;
 border-radius: 40px;
-text-align: center;
 color: #141841;
-font-family: 'DM Sans', sans-serif;
-font-family: 'Fira Sans', sans-serif;
-font-family: 'Inter', sans-serif;
-font-family: 'Merriweather', serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
 font-size: 20px;
 font-weight: 400;
-line-height: 46px;
 letter-spacing: 0em;
-
+display: flex;
+align-items: center;
+justify-content: center;
 transition: 0.4s ease-in-out;
+display: flex;
  }
+ .tourr-btn{
+display: flex;
+justify-content: center;
+ }
+.tourr-btn p{
+    position: relative;
+    top: 7px;
+}
+.tourr-btn button{
+    display: none;
+}
+.tourr-btn1{
+    display: flex;
+    justify-content: center;
+     }
+     .tourr-btn1 p{
+        position: relative;
+        top: 7px;
+    }
+    .excursions-header{
+        width: 100%;
+        height: 1000px;
+    }
+    .excursions-width-auto{
+        width: 90%;
+        margin: auto;
+    }
+    .directions-header-ichi-h3{
+        width: 71%;
+        margin: auto;
+    }
+    .directions-header-ichi-h3 h1{
+        font-family: 'DM Sans', sans-serif;
+        font-family: 'Fira Sans', sans-serif;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    font-size: 75px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 20px;
+    }
+
+    .deriction-header-grid-3 .grid-block{
+        width: 391px;
+            height: 404px;
+            border-radius: 20px;
+           background: url("../main\ img/mvshv23_Jebel_Hafeet_Abu_Dhabi_vector_style_146c65cf-7727-4c05-b54d-cd9e40f6117c.png");
+   overflow: hidden !important;
+   background-size: 100% 100%;
+        }
+    .deriction-header-grid-3{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom:20px;
+    }
+    .uea-qora-fon1{
+        width: 100%;
+            height: 100%;
+            background: url("../main\ img/bu11.png");
+            cursor: pointer;
+            overflow: hidden !important;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+    }
+    .sahro-zb1 h3{
+        font-family: 'DM Sans', sans-serif;
+            font-family: 'Fira Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
+            font-family: 'Merriweather', serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 46px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    .sahro-zb1{
+        width: 85%;
+        height: 90%;
+        display: flex;
+        align-items: end;
+        margin: auto;
+    }
+    .grid-block-big1 {
+        width: 801px;
+        height: 404px;
+        border-radius: 20px;
+        background: url("../main\ img/mvshv23_atlantis_aquaventure_waterpark_dubai_vector_style_557f6942-b199-4600-9f5a-e96bc521c04b 1.png");
+        cursor: pointer;
+    }
+    /* background: url("../main\ img/mvshv23_Dubai_desert_fun_vector_style_f7226fb2-7e93-4c6a-9ec2-6715e998239d.png"); */
+
+    .grid-block-2{
+        width: 391px ;
+        height: 404px;
+        border-radius: 20px;
+        background: url("../main\ img/mvshv23_Dubai_desert_fun_vector_style_f7226fb2-7e93-4c6a-9ec2-6715e998239d.png");
+    }
+    .grid-block-3{
+        width: 391px;
+            height: 404px;
+            border-radius: 20px;
+            background: url("../main\ img/mvshv23_Sharjah_city_UAE_vector_style_e06ce261-0231-4e8b-a52f-9a3dea4d4ceb.png");
+            cursor: pointer;
+}
+/* mvshv23_Dubai_shopping_tour_Dubai_Mall_vector_style_ec031eba-05f1-4566-a276-026fa6cca38f */
+
+.grid-block-4 {
+    width: 391px;
+    height: 404px;
+    border-radius: 20px;
+    background: url("../main\ img/mvshv23_Dubai_shopping_tour_Dubai_Mall_vector_style_ec031eba-05f1-4566-a276-026fa6cca38f.png");
+}
